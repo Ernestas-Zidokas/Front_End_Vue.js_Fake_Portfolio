@@ -2,7 +2,7 @@ export default {
     path: '/about',
     component: () => import('@/views/About'),
     meta: {
-        displayName: 'About',
+        displayName: 'ABOUT',
         defaultName: 'About:Education'
     },
     children: [

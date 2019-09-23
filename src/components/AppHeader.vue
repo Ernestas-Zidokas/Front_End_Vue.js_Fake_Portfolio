@@ -2,8 +2,8 @@
   <header class="Header">
     <Navigation :routes="links" />
     <div class="Header--title">
-      <h2>Ernestas Židokas</h2>
-      <h3>Portfolio</h3>
+      <h2>ERNESTAS ŽIDOKAS</h2>
+      <h3>PORTFOLIO</h3>
     </div>
   </header>
 </template>
@@ -37,8 +37,24 @@ export default {
   width: 100%;
 
   &--title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: #fff;
+
+    h2,
+    h3 {
+      font-weight: 600;
+      margin: 10px 0 px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
   }
 }
 </style>

@@ -3,6 +3,6 @@ export default {
     name: 'Home',
     component: () => import('@/views/Home'),
     meta: {
-        displayName: 'Home'
+        displayName: 'HOME'
     }
 }

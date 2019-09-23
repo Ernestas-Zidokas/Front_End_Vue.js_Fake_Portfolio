@@ -1,9 +1,9 @@
 <template>
   <div class="Contacts">
-    <h3>Contacts</h3>
-    <Input labelText="Name" />
-    <AppTextArea labelText="Message" />
-    <AppButton>Send</AppButton>
+    <h3>CONTACTS</h3>
+    <Input labelText="NAME" />
+    <AppTextArea labelText="MESSAGE" />
+    <AppButton>SEND</AppButton>
   </div>
 </template>
 
@@ -25,5 +25,30 @@ export default {
 <style lang='scss'>
 .Contacts {
   padding: 50px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .Input-field {
+    label,
+    input {
+      margin: 5px 0px;
+      border-radius: 3px;
+    }
+
+    input {
+      padding: 5px;
+    }
+  }
+
+  .Text-area {
+    label,
+    textarea {
+      margin: 5px 0px;
+      border-radius: 3px;
+    }
+  }
 }
 </style>

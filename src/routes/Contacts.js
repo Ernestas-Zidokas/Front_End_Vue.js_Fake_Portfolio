@@ -3,6 +3,6 @@ export default {
     name: 'Contacts',
     component: () => import('@/views/Contacts'),
     meta: {
-        displayName: 'Contacts'
+        displayName: 'CONTACTS'
     }
 }

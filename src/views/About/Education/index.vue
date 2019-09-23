@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Education">
     <ol>
       <li v-for="item in info" :key="item">{{item}}</li>
     </ol>
@@ -17,5 +17,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
+.Education {
+  margin-left: 20px;
+}
 </style>

@@ -30,10 +30,14 @@ export default {
 </script>
 
 <style lang="scss">
+nav {
+  max-width: 1196px;
+  margin: 0 auto;
+}
 .Navigation {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 20px 0px;
   &__invert {
     justify-content: unset;
   }

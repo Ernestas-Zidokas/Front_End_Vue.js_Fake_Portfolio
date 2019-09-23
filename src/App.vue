@@ -24,11 +24,14 @@ export default {
 </script>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
 * {
   box-sizing: border-box;
 }
 
 #app {
+  font-family: "Open sans";
   background-color: #f5f5f5;
 }
 </style>

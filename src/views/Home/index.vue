@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <h3>Projects</h3>
+    <h3>PROJECTS</h3>
     <div class="Home--cards">
       <Card
         v-for="data in photoArray"
@@ -31,9 +31,9 @@ export default {
   computed: {
     photoArray() {
       return [
-        { name: "Banana project", photo: photo1 },
-        { name: "Banana sign", photo: photo2 },
-        { name: "Friends project", photo: photo3 }
+        { name: "PROJECT 1", photo: photo1 },
+        { name: "PROJECT 2", photo: photo2 },
+        { name: "PROJECT 3", photo: photo3 }
       ];
     }
   }
@@ -43,6 +43,11 @@ export default {
 <style lang="scss">
 .Home {
   padding: 50px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
 
   &--cards {
     display: flex;

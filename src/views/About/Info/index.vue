@@ -1,5 +1,5 @@
 <template>
-  <div>Info</div>
+  <div class="Info">Info</div>
 </template>
 
 <script>
@@ -9,4 +9,7 @@ export default {
 </script>
 
 <style lang='scss'>
+.Info {
+  margin-left: 20px;
+}
 </style>

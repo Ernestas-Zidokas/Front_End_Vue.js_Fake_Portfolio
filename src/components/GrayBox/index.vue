@@ -12,8 +12,9 @@ export default {
 
 <style lang='scss'>
 .GrayBox {
-  width: 1075px;
   height: 250px;
   background-color: #eeeff3;
+  display: flex;
+  align-items: center;
 }
 </style>

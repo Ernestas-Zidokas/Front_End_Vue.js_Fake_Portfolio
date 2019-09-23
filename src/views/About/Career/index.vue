@@ -8,5 +8,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
+.Career {
+  margin-left: 20px;
+}
 </style>
